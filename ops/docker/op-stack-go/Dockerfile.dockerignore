@@ -1,0 +1,19 @@
+# All the files we depend on. We are using a negative pattern to not include anything by accident.
+# node_modules, packages (contains git submodules and node modules etc.), devnet dirs etc. all add up a lot.
+*
+
+!/cannon
+!/bl-batcher
+!/bl-bindings
+!/bl-bootnode
+!/bl-chain-ops
+!/bl-challenger
+!/bl-heartbeat
+!/bl-node
+!/bl-preimage
+!/bl-program
+!/bl-proposer
+!/bl-service
+!/bl-wheel
+!/go.mod
+!/go.sum

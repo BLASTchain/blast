@@ -1,0 +1,22 @@
+FROM golang:1.20.4-alpine3.16 as builder
+
+RUN apk add --no-cache make gcc musl-dev linux-headers git jq bash
+
+COPY ./go.mod /app/go.mod
+COPY ./go.sum /app/go.sum
+
+COPY ./bl-bindings /app/bl-bindings
+COPY ./bl-service /app/bl-service
+
+WORKDIR /app/bl-node
+RUN go mod download -x
+
+COPY ./bl-node /app/bl-node
+
+RUN go build -o ./bin/stateviz ./cmd/stateviz
+
+FROM alpine:3.16
+
+COPY --from=builder /app/bl-node/bin/stateviz /usr/local/bin
+
+CMD ["stateviz"]
