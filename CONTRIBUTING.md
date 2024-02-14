@@ -226,3 +226,33 @@ When altering label names or deleting labels there are a few things you must be 
 - If the https://github.com/BLASTchain/labels/S-stale label is altered, the [close-stale](.github/workflows/close-stale.yml) workflow should be updated.
 - If the https://github.com/BLASTchain/labels/M-dependabot label is altered, the [dependabot config](.github/dependabot.yml) file should be adjusted.
 - Saved label filters for project boards will not automatically update. These should be updated if label names change.
+
+## Celebrating Our Contributors
+
+We deeply value each contribution to our project, and we believe in celebrating your hard work and dedication. Our community thrives because of your skills, creativity, and willingness to give back. Here's how we recognize your invaluable contributions:
+
+### Contributors Hall of Fame
+
+Outstanding contributions deserve spotlight recognition. We feature our most active and impactful contributors in our **Contributors Hall of Fame** on our community site. This special recognition is our way of saying a huge thank you and showcasing the people who have made significant impacts on our project's growth and success.
+
+### Monthly Shout-Outs
+
+Every month, we highlight contributions that have made a difference, no matter how big or small. Whether it's a bug fix, an enhancement, or documentation improvement, we share these achievements across our social media and community channels. It's our way of ensuring that your hard work is seen and appreciated by the wider community.
+
+### Contribution Highlights
+
+In our project newsletters and during community calls, we take the time to highlight notable contributions. This might include a particularly innovative solution, a series of valuable bug fixes, or exceptional community support and guidance provided by contributors.
+
+### Special Thanks in Release Notes
+
+Each project release includes a "Special Thanks" section in the release notes, where we acknowledge contributors by name and highlight their contributions. It's a token of our gratitude and a permanent record of your contribution to the project's evolution.
+
+### Contributor Rewards
+
+For those who go above and beyond, we offer unique rewards such as exclusive swag, access to beta features, and invitations to special events with the project maintainers and community leaders. These rewards are a small token of our appreciation for your big contributions.
+
+### Join Our Contributors Program
+
+Want to get more involved and make even more of an impact? Join our Contributors Program. As part of this program, you'll have opportunities to participate in beta tests, feature design discussions, and receive mentorship from project maintainers. It's a fantastic way to grow your skills and influence the future of the project.
+
+**Thank you to all our contributors!** Your efforts are what make this project so special. We're excited to celebrate your contributions and look forward to seeing how you'll continue to make a difference in our community.
